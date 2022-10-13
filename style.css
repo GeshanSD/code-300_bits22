@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+}
+header
+{
+    width: auto;
+    margin: auto;
+    height: 75px;
+    background-color: #021a03;
+}
+.icon
+{
+    width: 1200px;
+    float: left;
+    height: 70px;
+}
+.logo
+{
+    color: #00ff08;
+    font-size: 50px;
+    text-decoration: double;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.reg
+{
+    color: #00ff08;
+    font-size: 22px;
+    text-decoration: double;
+    font-family: Arial;
+    padding-left: 0px;
+    float: left;
+    padding-top: 10px;
+}
+.logo2
+{
+    color: #0aa10f;
+    font-size: 15px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.navbar
+{
+    width: auto;
+    margin: auto;
+    height: 75px;
+    background-color: #021a03;
+}
+.menu
+{
+    width: 400px;
+    float: left;
+    height: 70px;
+    background-color: #021a03;
+}
+ul
+{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li
+{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover
+{
+    color: #00ff08;
+}
+.search
+{
+    width: 330px;
+    float: left;
+    margin-left: 450px;
+}
+.srch
+{
+    font-family: 'Times New Roman';
+    text-decoration-color: #fff;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #00ff08;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn
+{
+    width: 100px;
+    height: 40px;
+    background: #00ff08;
+    border: 2px solid #00ff08;
+    margin-top: 13px;
+    color: #000;
+    font-size: 15px;
+    cursor: pointer;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus
+{
+    outline: none;
+    background: #154d17;
+    color: #fff;
+}
+.srch:focus
+{
+    outline: none;
+    background: #154d17;
+    color: #fff;
+}
+.butn
+{
+    width: 100px;
+    height: 40px;
+    background: #0aa10f;
+    border: none;
+    margin-top: 16px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #2f00ff;
+    transition: 0.4s ease;
+}
+.butn:hover
+{
+    background: #fff;
+    color: #2f00ff;
+}
+.butn a
+{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.content_top
+{
+    background-image: url(Mangrove_p1.jpg);
+    background-size: cover;
+}
+.content_top table p
+{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Arial Black';
+    table-layout: fixed;
+    margin-left: 210px;
+}
+.content_top table h1
+{
+    color: #fff;
+    font-size: 100px;
+    font-family: 'Forte';
+    text-align: center;
+    text-decoration-line: underline;
+}
+.content_top table .par
+{
+    color: #fff;
+    font-size: 21px;
+    font-family: 'Calibri';
+    margin-left: 160px;
+}
+.content_top table ul
+{
+    float: left;
+    display: contents;
+    justify-content: center;
+    align-items: center;
+}
+.content_top table ul li
+{
+    margin-left: 100px;
+    margin-top: 27px;
+    font-size: 20px;
+}
+.content_top table ul li a
+{
+    text-decoration: none;
+    color: rgb(231, 252, 0);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+.content_top table ul li a:hover
+{
+    color: #ff8400;
+}
+.content_bottom
+{
+    background-color: azure;
+    height: 800px;
+}
+.content_bottom table p
+{
+    text-align: justify;
+    margin: 15px;
+    font-family: 'Arial';
+}
+.content_bottom table p ul
+{
+    text-align: justify;
+    margin: 15px;
+    font-family: 'Arial';
+    float: left;
+    display: contents;
+    justify-content: center;
+}
+.content_bottom table p ul li
+{
+    text-align: justify;
+    margin: 15px;
+    font-family: 'Arial';
+    float: left;
+    display: contents;
+    justify-content: center;
+}
+.content_bottom table h2
+{
+    text-align: left;
+    font-size: 28px;
+    color: rgb(15, 72, 27);
+    margin-left: 10px;
+}
+.content_bottom table img
+{
+    align-items: center;
+    weight: 300px;
+    height: 170px;
+}
+.form
+{
+    background-color: #00ff08;
+}
+.form h2
+{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #2f00ff;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 7px;
+    margin-top: 7px;
+    margin-left: 25px;
+    padding: 8px;
+}
+.form input
+{
+    width: 300px;
+    height: 35px;
+    background: transparent;
+    border-color: #000;
+    color: #fff;
+    font-size: 15px;
+    text-align: left;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-left: 25px;
+    font-family: sans-serif;
+}
+.form input:focus
+{
+    outline: none;
+}
+::placeholder
+{
+    color: #000;
+    font-family: Arial;
+}
+.btnn
+{
+    width: 150px;
+    height: 40px;
+    background: #2f00ff;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover
+{
+    background: #fff;
+    color: #2f00ff;
+}
+.btnn a
+{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+footer
+{
+    background:#154d17;
+    color:#fff;
+    padding:15px 50px;
+    text-align:center;
+    width: auto;
+    height: auto;
+}
+footer p
+{
+    font-family: Arial;
+    color:#fff;
+    padding:15px 50px;
+    text-align:center;
+    font-size: 12px;
+}
